@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="player-input">
+            <input type="text" id="player1-name" placeholder="Player 1 Name">
+            <input type="text" id="player2-name" placeholder="Player 2 Name">
+            <button id="save-names">SAVE</button>
+        </div>
+
+        <div class="board">
+            <div class="player player1">
+                <h2 id="name1">PLAYER 1</h2>
+                <p class="score" id="score1">0</p>
+                <p class="current-label">CURRENT</p>
+                <p class="current-score" id="current1">0</p>
+            </div>
+
+            <div class="dice-container">
+                <p id="dice-result">0</p> 
+                <button id="roll">🎲 ROLL DICE</button>
+                <button id="hold">✋ HOLD</button>
+                <button id="new-game">🔄 NEW GAME</button>
+            </div>
+
+            <div class="player player2">
+                <h2 id="name2">PLAYER 2</h2>
+                <p class="score" id="score2">0</p>
+                <p class="current-label">CURRENT</p>
+                <p class="current-score" id="current2">0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
