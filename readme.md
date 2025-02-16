@@ -40,5 +40,5 @@ Just open index.html in any modern browser.
 
 ### **3️⃣ Play the Game! 🎲
 
-📜 License
-This project is licensed under the MIT License.
+### **📜 License
+This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
