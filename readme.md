@@ -30,9 +30,6 @@ A simple **two-player dice game** built with **HTML, CSS, and JavaScript**, wher
 - **CSS** → Styling and animations
 - **JavaScript** → Game logic and interactivity
 
-## 📸 Screenshots
-*(Add screenshots here if available)*
-
 ## 🚀 Getting Started
 
 ### **1️⃣ Clone the Repository**
